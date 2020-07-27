@@ -1,0 +1,4 @@
+string<=10 robot_type
+bool activation
+---
+string activation_status
