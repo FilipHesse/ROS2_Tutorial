@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tutorial_interfaces</name>
+  <version>0.0.0</version>
+  <description>Custom message definition in ROS1 to be used with ROS2</description>
+
+  <maintainer email="danieto98@gmail.com">Daniel Nieto</maintainer>
+
+  <license>BSD</license>
+
+  <author email="danieto98@gmail.com">Daniel Nieto</author>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+</package>
