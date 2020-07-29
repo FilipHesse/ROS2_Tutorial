@@ -22,7 +22,8 @@ def generate_launch_description():
         Node(
             package='cpp_pubsub',
             node_executable='D',
-            node_name='D'
+            node_name='D',
+            remappings = [('/D', '/D_remapped')]
         ),
 
 
