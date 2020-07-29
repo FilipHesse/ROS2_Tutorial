@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>cpp_srvcli</name>
-  <version>0.0.0</version>
-  <description>ROS2 Service Server/Client C++ tutorial</description>
-  <maintainer email="imstevenpm.study@gmail.com">imstevenpm</maintainer>
+  <name>action_tutorials_cpp</name>
+  <version>0.10.0</version>
+  <description>ROS2 Action C++ tutorial</description>
+  <maintainer email="jacob@openrobotics.org">Jacob Perron</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <depend>action_tutorials_interfaces</depend>
   <depend>rclcpp</depend>
-  <depend>example_interfaces</depend>
+  <depend>rclcpp_action</depend>
+  <depend>rclcpp_components</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

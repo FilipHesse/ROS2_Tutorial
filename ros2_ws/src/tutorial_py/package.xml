@@ -3,9 +3,9 @@
 <package format="3">
   <name>tutorial_py</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>ROS2 Publisher/Subscriber Python tutorial</description>
   <maintainer email="Filip_Hesse@yahoo.de">filip</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

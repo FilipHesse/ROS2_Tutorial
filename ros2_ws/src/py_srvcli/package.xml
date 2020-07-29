@@ -3,7 +3,7 @@
 <package format="3">
   <name>py_srvcli</name>
   <version>0.0.0</version>
-  <description>Python client server tutorial</description>
+  <description>ROS2 Service Server/Client Python tutorial</description>
   <maintainer email="imstevenpm.study@gmail.com">imstevenpm</maintainer>
   <license>Apache License 2.0</license>
 
