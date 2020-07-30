@@ -1,3 +1,6 @@
 [submodule "ros2_ws/src/pendulum"]
 	path = ros2_ws/src/pendulum
 	url = https://github.com/ros2-realtime-demo/pendulum.git
+[submodule "bridge_ws/src/ros1_bridge"]
+	path = bridge_ws/src/ros1_bridge
+	url = https://www.github.com/ros2/ros1_bridge
