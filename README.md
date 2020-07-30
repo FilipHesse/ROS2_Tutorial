@@ -1,4 +1,4 @@
-# ROS2_RealTime-Tutorial
+# ROS2_Tutorial
 
 ## Installation
 
