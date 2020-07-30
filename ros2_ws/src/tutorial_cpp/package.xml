@@ -18,5 +18,5 @@
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
-  <depend>tutorial_interfaces</depend>
+  <depend>tutorial_msgs</depend>
 </package>
