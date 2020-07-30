@@ -36,6 +36,7 @@ source /opt/ros/<ros1_distro>/setup.bash
 source /opt/ros/<ros2_distro>/setup.bash
 source ros1_ws/install_isolated/setup.bash
 source ros2_ws/install/local_setup.bash
+cd bridge_ws
 colcon build --symlink-install --packages-select ros1_bridge --cmake-force-configure
 ```
 
