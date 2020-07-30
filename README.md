@@ -2,14 +2,14 @@
 
 ## Installation
 
-Download the repo using this comand
+Clone the repo:
 
 ```bash
 cd ~
 git clone https://github.com/FilipHesse/ROS2_Tutorial.git --recurse-submodules
 ```
 
-To install the packages inside ros1_ws we will use the following command:
+Build the packages inside ros1_ws:
 
 ```bash
 cd ~/ROS2_Tutorial/ros1_ws
@@ -17,7 +17,7 @@ source /opt/ros/<ros1_distro>/setup.bash
 catkin_make
 catkin_make_isolated --install
 ```
-To install the packages inside ros1_ws we will use the following command:
+Build the packages inside ros1_ws:
 
 ```bash
 cd ~/ROS2_Tutorial/ros2_ws
@@ -25,7 +25,7 @@ source /opt/ros/<ros2_distro>/setup.bash
 colcon build --symlink-install
 ```
 
-To install the package inside bridge_ws we will use the following command:
+Build the ros1_bridge package inside bridge_ws:
 
 ```bash
 cd ~/ROS2_Tutorial
