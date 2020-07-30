@@ -1,5 +1,12 @@
 # ROS2_Tutorial
 
+## Prerequistes
+This repo assumes the user is on a Linux system and has ROS1 and ROS2 installed on their machine.
+
+To install ROS1 follow the instructions [here](http://wiki.ros.org/ROS/Installation).
+
+To install ROS2 follow the instructions [here](https://index.ros.org/doc/ros2/Installation/).
+
 ## Tutorial Files
 You can follow the tutorial [here](doc/ROS2_Tutorial.pdf).
 
@@ -40,15 +47,10 @@ cd bridge_ws
 colcon build --symlink-install --packages-select ros1_bridge --cmake-force-configure
 ```
 
-## Covered Subjects:
+## Modules
 
- 1. Introduction
- 2. ROS2 Basic Elements
- 3. ROS2 Application Managment
- 4. Hands on: Create a basic Publisher and Subscriber
- 5. Building and compiling nodes
- 6. ROS Bridge
- 7. Real Time
- 8. SROS
+### SROS Example
+
+The SROS Example 
 
 
