@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(tutorial_interfaces)
+project(tutorial_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -22,12 +22,22 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+set(msg_files
+	"msg/RobotData.msg"
+	"msg/CustomMessage.msg"
+)
+
+set(srv_files
+	"srv/Activate.srv"
+)
+
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/RobotData.msg"
-  "srv/Activate.srv"
- )
+	${msg_files}
+	${srv_files}
+)
 
+ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

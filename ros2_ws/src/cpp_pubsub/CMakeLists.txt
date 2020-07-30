@@ -15,7 +15,6 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-find_package(tutorial_interfaces REQUIRED)
 
 
 
@@ -30,7 +29,7 @@ add_executable(C src/C.cpp)
 ament_target_dependencies(C rclcpp std_msgs)
 
 add_executable(D src/D.cpp)
-ament_target_dependencies(D rclcpp std_msgs geometry_msgs tutorial_interfaces)
+ament_target_dependencies(D rclcpp std_msgs geometry_msgs)
 
 ament_export_dependencies(rosidl_default_runtime)
 
