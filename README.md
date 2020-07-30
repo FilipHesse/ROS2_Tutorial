@@ -57,3 +57,11 @@ colcon build --symlink-install --packages-select ros1_bridge --cmake-force-confi
  6. ROS Bridge
  7. Real Time
  8. SROS
+
+## Authors
+* Roberto Canale: roberto.canale.work@gmail.com
+* Filip Hesse: filip_hesse@yahoo.de
+* Justin Lee: leej1996@gmail.com
+* Daniel Nieto: danieto98@gmail.com
+* Steven Palma: imstevenpm.study@gmail.com
+* Josep Rueda: rueda_999@hotmail.com
