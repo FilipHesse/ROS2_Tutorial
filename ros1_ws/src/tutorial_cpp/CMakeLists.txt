@@ -2,23 +2,25 @@ cmake_minimum_required(VERSION 3.0.2)
 project(tutorial_cpp)
 
 ## Find catkin and any catkin packages
-find_package(catkin REQUIRED COMPONENTS roscpp std_msgs genmsg)
-
-## Declare ROS messages and services
-#add_message_files(FILES Num.msg)
-#add_service_files(FILES AddTwoInts.srv)
-
-## Generate added messages and services
-#generate_messages(DEPENDENCIES std_msgs)
+find_package(catkin REQUIRED COMPONENTS
+	roscpp
+	std_msgs
+	genmsg
+	tutorial_interfaces)
 
 ## Declare a catkin package
 catkin_package()
 
 ## Build talker and listener
-include_directories(include ${catkin_INCLUDE_DIRS})
+include_directories(include ${catkin_INCLUDE_DIRS} ${tutorial_interfaces_INCLUDE_DIRS})
 
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
 
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
+
+## Build ros_bridge example node
+add_executable(ros_bridge_1 src/ros_bridge.cpp)
+add_dependencies(ros_bridge_1 ${catkin_EXPORTED_TARGETS})
+target_link_libraries(ros_bridge_1 ${catkin_LIBRARIES})
