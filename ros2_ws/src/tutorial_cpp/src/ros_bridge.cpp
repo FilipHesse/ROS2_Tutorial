@@ -11,7 +11,7 @@ class ROS1Subscriber : public rclcpp::Node
     : Node("ros_bridge_2")
     {
       subscription_ = this->create_subscription<tutorial_msgs::msg::CustomMessage>(
-      "topic", 10, std::bind(&ROS1Subscriber::class_callback, this, _1));
+      "classification", 10, std::bind(&ROS1Subscriber::class_callback, this, _1));
     }
 
   private:
