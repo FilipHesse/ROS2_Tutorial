@@ -3,9 +3,16 @@
 <package format="3">
   <name>cpp_pubsub</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="roberto.canale.work@gmail.com">roberto</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Launch file tutorial package</description>
+  
+  <maintainer email="roberto.canale.work@gmail.com">Roberto Canale</maintainer>
+  <maintainer email="filip_hesse@yahoo.de">Filip Hesse</maintainer>
+  <maintainer email="leej1996@gmail.com">Justin Lee</maintainer>
+  <maintainer email="danieto98@gmail.com">Daniel Nieto</maintainer>
+  <maintainer email="imstevenpm.study@gmail.com">Steven Palma</maintainer>
+  <maintainer email="rueda_999@hotmail.com">Josep Rueda</maintainer>
+
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

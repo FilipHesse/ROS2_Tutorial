@@ -4,11 +4,21 @@
   <version>0.0.0</version>
   <description>Custom message definition in ROS1 to be used with ROS2</description>
 
+  <maintainer email="roberto.canale.work@gmail.com">Roberto Canale</maintainer>
+  <maintainer email="filip_hesse@yahoo.de">Filip Hesse</maintainer>
+  <maintainer email="leej1996@gmail.com">Justin Lee</maintainer>
   <maintainer email="danieto98@gmail.com">Daniel Nieto</maintainer>
+  <maintainer email="imstevenpm.study@gmail.com">Steven Palma</maintainer>
+  <maintainer email="rueda_999@hotmail.com">Josep Rueda</maintainer>
 
   <license>BSD</license>
 
+  <author email="roberto.canale.work@gmail.com">Roberto Canale</author>
+  <author email="filip_hesse@yahoo.de">Filip Hesse</author>
+  <author email="leej1996@gmail.com">Justin Lee</author>
   <author email="danieto98@gmail.com">Daniel Nieto</author>
+  <author email="imstevenpm.study@gmail.com">Steven Palma</author>
+  <author email="rueda_999@hotmail.com">Josep Rueda</author>
 
   <build_depend>message_generation</build_depend>
   <build_depend>std_msgs</build_depend>
