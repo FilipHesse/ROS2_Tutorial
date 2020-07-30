@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(tutorial_interfaces)
+project(tutorial_msgs)
 
 ## Find catkin macros and libraries, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS

@@ -1,5 +1,5 @@
 #include "ros/ros.h"
-#include <tutorial_interfaces/CustomMessage.h>
+#include <tutorial_msgs/CustomMessage.h>
 
 #include <ctime>
 
@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 	ros::init(argc, argv, "ros_bridge_1");
 	ros::NodeHandle nh;
 
-	ros::Publisher classifier_pub = nh.advertise<tutorial_interfaces::CustomMessage>("classification", 1000);
+	ros::Publisher classifier_pub = nh.advertise<tutorial_msgs::CustomMessage>("classification", 1000);
 
 	ros::Rate loop_rate(10);
 
@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 	int i;
 
 	while(ros::ok()){
-		tutorial_interfaces::CustomMessage msg;
+		tutorial_msgs::CustomMessage msg;
 
 		i = rand() % 3;
 		msg.class_name = classes[i];

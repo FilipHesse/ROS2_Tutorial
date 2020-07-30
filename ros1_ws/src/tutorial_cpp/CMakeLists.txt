@@ -6,13 +6,13 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp
 	std_msgs
 	genmsg
-	tutorial_interfaces)
+	tutorial_msgs)
 
 ## Declare a catkin package
 catkin_package()
 
 ## Build talker and listener
-include_directories(include ${catkin_INCLUDE_DIRS} ${tutorial_interfaces_INCLUDE_DIRS})
+include_directories(include ${catkin_INCLUDE_DIRS} ${tutorial_msgs_INCLUDE_DIRS})
 
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
