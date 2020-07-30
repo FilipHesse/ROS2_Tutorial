@@ -51,7 +51,7 @@ colcon build --symlink-install --packages-select ros1_bridge --cmake-force-confi
 
  1. Introduction
  2. ROS2 Basic Elements
- 3. ROS2 Application Managment
+ 3. ROS2 Application Management
  4. Hands on: Create a basic Publisher and Subscriber
  5. Building and compiling nodes
  6. ROS Bridge
