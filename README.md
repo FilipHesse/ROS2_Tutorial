@@ -1,7 +1,7 @@
 # ROS2_Tutorial
 
 ## Tutorial Files
-You can follow the tutorial here.
+You can follow the tutorial [here](doc/ROS2_Tutorial.pdf).
 
 ## Installation
 
