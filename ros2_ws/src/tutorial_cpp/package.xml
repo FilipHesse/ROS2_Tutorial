@@ -11,8 +11,15 @@
   <maintainer email="danieto98@gmail.com">Daniel Nieto</maintainer>
   <maintainer email="imstevenpm.study@gmail.com">Steven Palma</maintainer>
   <maintainer email="rueda_999@hotmail.com">Josep Rueda</maintainer>
-  
+
   <license>Apache License 2.0</license>
+
+  <author email="roberto.canale.work@gmail.com">Roberto Canale</author>
+  <author email="filip_hesse@yahoo.de">Filip Hesse</author>
+  <author email="leej1996@gmail.com">Justin Lee</author>
+  <author email="danieto98@gmail.com">Daniel Nieto</author>
+  <author email="imstevenpm.study@gmail.com">Steven Palma</author>
+  <author email="rueda_999@hotmail.com">Josep Rueda</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
